@@ -15,13 +15,15 @@ startButton.onclick = function () {
 
   let guess = parseInt(g);
 
-  if (guess === 7) {
-    alert('You got it!');
+  if (guess === 2) {
+    alert('You are the Boss!');
+    theBody.style.backgroundColor = 'yellow';
   } else {
-    alert('No!');
+    alert('SORRY LOSER!');
+    theBody.style.backgroundColor = 'red';
   }
 
-  alert('Thanks for playing!');
+  alert('Hope you had fun playing!');
 };
 // To run this code, copy it and past it into the Console in the Dev Tools.
 
