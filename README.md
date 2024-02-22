@@ -1,12 +1,13 @@
 # JavaScript Practice 1
 
 A place for me to practice and demo JavaScript
+A link to my Replit https://replit.com/join/iqijmiggdv-laperkins2
 
 ## About
 
 This repo will contain several demos including:
 
-* guessing-game.html - a simple guess the number game
+- guessing-game.html - a simple guess the number game
 
 ## Built With
 
@@ -24,7 +25,7 @@ This repo will contain several demos including:
 
 ## Contact
 
-Author: 
+Author:
 
 ## Acknowledgements
 
