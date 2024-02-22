@@ -17,9 +17,11 @@ startButton.onclick = function () {
 
   if (guess === 2) {
     alert('You are the Boss!');
+    resultDiv.textContent = 'You win';
     theBody.style.backgroundColor = 'yellow';
   } else {
-    alert('SORRY LOSER!');
+    alert('SORRY YOU LOST!');
+    resultDiv.textContent = 'Sorry, better luck next time!';
     theBody.style.backgroundColor = 'red';
   }
 
